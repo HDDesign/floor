@@ -19,7 +19,10 @@ dependencies:
   collection: ^1.14.11
   dartx: ^0.3.0
   floor_annotation:
-    path: ../floor_annotation/
+    git:
+      url: https://github.com/HDDesign/floor.git
+      ref: type-converters
+      path: floor_annotation/
 
 dev_dependencies:
   test: ^1.11.0
