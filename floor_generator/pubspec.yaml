@@ -10,14 +10,14 @@ environment:
   sdk: '>=2.6.0 <3.0.0'
 
 dependencies:
-  analyzer: ^0.39.4
+  analyzer: ^0.41.2
   build: ^1.2.2
   code_builder: ^3.2.1
   meta: ^1.1.8
   source_gen: ^0.9.4+7
   build_config: ^0.4.1+1
   collection: ^1.14.11
-  dartx: ^0.3.0
+  dartx: ^0.6.0
   floor_annotation:
     git:
       url: https://github.com/HDDesign/floor.git
@@ -26,8 +26,8 @@ dependencies:
 
 dev_dependencies:
   test: ^1.11.0
-  build_test: ^0.10.12
+  build_test: ^1.3.7
   path: ^1.6.4
   dart_style: ^1.3.3
-  test_cov: ^0.2.1
+  test_cov: ^0.3.0
   mockito: ^4.1.1
