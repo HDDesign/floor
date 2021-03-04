@@ -35,11 +35,11 @@ class Database {
           runtimeType == other.runtimeType &&
           classElement == other.classElement &&
           name == other.name &&
-          entities.equals(other.entities) &&
-          views.equals(other.views) &&
-          daoGetters.equals(other.daoGetters) &&
+          ListEqualityExtension(entities).equals(other.entities) &&
+          ListEqualityExtension(views).equals(other.views) &&
+          ListEqualityExtension(daoGetters).equals(other.daoGetters) &&
           version == other.version &&
-          databaseTypeConverters.equals(other.databaseTypeConverters) &&
+          ListEqualityExtension(databaseTypeConverters).equals(other.databaseTypeConverters) &&
           const SetEquality<TypeConverter>()
               .equals(allTypeConverters, other.allTypeConverters);
 
